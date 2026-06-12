@@ -1,7 +1,7 @@
 print("Simple Calculator")
 a=int(input())
 b=int(input())
-op="Enter a operator(+,-,/,*):"
+op=input("Enter a operator(+,-,/,*):")
 if op=="+":
   print("addition :",a+b)
 elif op=="-":
