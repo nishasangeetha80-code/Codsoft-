@@ -12,7 +12,7 @@ while True:
   elif ch==2:
     print(Tasks)
   elif ch==3:
-    n=int(input("Enter a numbers:"))
+    n=int(input("Enter a number:"))
     Tasks[n-1]=input("Enter a Task:")
   elif ch==4:
     n=int(input("Enter a number:"))
